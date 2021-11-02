@@ -1,0 +1,277 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  list-style: none;
+}
+.main-menu a {
+  text-decoration: none;
+}
+
+#departments:hover #dropdown {
+  display: block;
+  position: absolute;
+}
+
+#dropdown {
+  position: relative;
+  display: none;
+}
+#about-us {
+  color: aquamarine;
+}
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#paraghraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aquamarine;
+}
+#text {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  color: gray;
+}
+body {
+  font-family: "fantasy";
+  height: 100%;
+}
+
+#patients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  height: 300px;
+  width: 30%;
+  margin: 0 0 0 0;
+  margin: auto;
+  border-radius: 30px;
+}
+#patients:hover {
+  background-color: rgb(0, 204, 177);
+}
+#collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 0 0 0;
+}
+#collections > * {
+  border-radius: 15px;
+}
+#doctors {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 30%;
+  margin: 0 0 0 0;
+  margin: auto;
+  border-radius: 30px;
+}
+#doctors:hover {
+  background-color: rgb(105, 105, 110);
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+#clinics {
+  background-color: grey;
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  margin: 0 0 0 0;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 30px;
+}
+#we {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  color: aquamarine;
+}
+.brands__logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+#test {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#title {
+  color: rgb(92, 141, 125);
+}
+#leader {
+  color: aquamarine;
+}
+.diva {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-wrap: wrap;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  height: 700px;
+  width: 100%;
+  background: #e5faf8;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+#header h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+#header p {
+  max-width: 415px;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+}
+#header img {
+  margin-top: 173px;
+}
+#grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* 
+
+.test {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto auto auto auto;
+  border: 5px solid grey;
+} */
+
+.shared {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+  width: 250px;
+  margin-bottom: 20px;
+}
+#parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#first-block {
+  margin-top: 80px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+}
+#left-block {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+}
+#para {
+  justify-content: center;
+  display: flex;
+}
+.offices__header {
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+  color: #00b39b;
+  font-family: serif;
+}
+p {
+  color: dimgray;
+  margin: 0 0 0 0;
+  height: 30%;
+}
+h1 {
+  height: 65px;
+}
+.offices__header h1 {
+  font-weight: 150px;
+}
+
+#image1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 75%;
+  margin-top: 25px;
+}
+
+#image1 > * {
+  margin-top: 20px;
+}
+
+.join-us__header {
+  color: rgb(95, 93, 93);
+  text-decoration: rgb(145, 143, 143);
+  text-align: center;
+  height: auto;
+  font-family: monospace;
+  font-size: 20px;
+}
+.site {
+  color: darkgrey;
+  font: size 1px;
+  font-family: monospace;
+}
+
+#btn {
+  padding: 5px;
+  background-color: rgb(65, 65, 168);
+  color: white  ;
+  border-radius: 7px;
+  margin-top: 15px;
+}
